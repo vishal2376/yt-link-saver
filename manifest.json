@@ -1,0 +1,11 @@
+
+{
+  "manifest_version": 3,
+  "name": "Tab Link Copier",
+  "version": "1.0",
+  "description": "Copy links from all open tabs",
+  "permissions": ["tabs", "activeTab", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
